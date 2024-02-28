@@ -17,4 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/blog', function () {
+    return view('mobile-blog.index');
+});
+
+Route::get('/news', function () {
+    return view('mobile-news.index');
+});
 

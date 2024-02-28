@@ -1,5 +1,7 @@
-extends('layouts.app')
+@extends('layouts.app')
 @section('title', 'Blog')
 @section('content')
-    <h1>Hello World!</h1>
+<header>
+    <img src="{{ asset('images/Logo.png') }}" alt="Logomark of Simetra" srcset="">
+</header>
 @endsection
